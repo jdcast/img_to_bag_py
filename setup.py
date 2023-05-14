@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'image_generator_executable = img_to_bag_py.image_generator_executable:main',
+            'a_mode_to_bag = img_to_bag_py.a_mode_to_bag:main',
             'image_publisher_node = img_to_bag_py.image_publisher:main',
             'image_subscriber_node = img_to_bag_py.image_subscriber:main',
         ],

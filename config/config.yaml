@@ -1,4 +1,8 @@
-directory: "/home/nightrider/Downloads/sample txt files/s2gg"
-image:
-  height: 1024
-  width: 1024
+a_mode_to_bag:
+  input_dir: "/home/nightrider/Downloads/sample txt files/s2gg"
+  image:
+    height: 1024
+    width: 1024
+  bag:
+    name: "synthetic_a_mode_img_bag"
+    path: "/home/nightrider/Downloads"
