@@ -17,7 +17,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='nightrider',
+    maintainer='John Dallas Cast',
     maintainer_email='john.d.cast@gmail.com',
     description='Convert directory of images to bag file',
     license='MIT',
@@ -25,8 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             'a_mode_to_bag = img_to_bag_py.a_mode_to_bag:main',
-            'image_publisher_node = img_to_bag_py.image_publisher:main',
-            'image_subscriber_node = img_to_bag_py.image_subscriber:main',
+            'a_mode_pub = img_to_bag_py.a_mode_pub:main',
+            'img_sub = img_to_bag_py.img_sub:main',
+            'img_to_bag = img_to_bag_py.img_to_bag:main',
         ],
     },
 )

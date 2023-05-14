@@ -1,8 +1,12 @@
-# Basic ROS 2 program to subscribe to real-time streaming 
-# video from your built-in webcam
-# Author:
-# - Addison Sears-Collins
-# - https://automaticaddison.com
+"""
+Basic ROS 2 program to subscribe to real-time streaming images
+
+Author:
+    - John Dallas Cast, Apr 12, 2023
+    - johndallascast.com
+
+Adapted from: https://automaticaddison.com/getting-started-with-opencv-in-ros-2-foxy-fitzroy-python/ 
+"""
   
 # Import the necessary libraries
 import cv2 # OpenCV library
@@ -46,10 +50,10 @@ class ImageSubscriber(Node):
  
     # Convert ROS Image message to OpenCV image
     img = self.br.imgmsg_to_cv2(data)
-    
-    print(img.shape)
-    print(np.max(img))
-    print(np.min(img))
+
+    print("image shape: {}".format(img.shape))
+    print("image max: {}".format(np.max(img)))
+    print("image min: {}".format(np.min(img)))
     
     # Display image
     cv2.imshow("image", img)

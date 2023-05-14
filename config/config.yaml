@@ -1,8 +1,15 @@
+a_mode_publisher:
+  input_dir: "/home/nightrider/Downloads/sample txt files/s2gg"
+  topic: "image_a_mode"
 a_mode_to_bag:
   input_dir: "/home/nightrider/Downloads/sample txt files/s2gg"
-  image:
-    height: 1024
-    width: 1024
+  topic: "image_a_mode"
   bag:
-    name: "synthetic_a_mode_img_bag"
+    name: "img_bag_a_mode"
+    path: "/home/nightrider/Downloads"
+img_to_bag:
+  input_dir: "/home/nightrider/Downloads/images"
+  topic: "image"
+  bag:
+    name: "img_bag"
     path: "/home/nightrider/Downloads"

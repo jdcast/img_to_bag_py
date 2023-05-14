@@ -3,14 +3,12 @@
 <package format="3">
   <name>img_to_bag_py</name>
   <version>0.0.0</version>
-  <description>Convert directory of images to bag file</description>
-  <maintainer email="john.d.cast@gmail.com">nightrider</maintainer>
+  <description>Utilities for viewing images and converting directory of images to a bag file</description>
+  <maintainer email="john.d.cast@gmail.com">John Dallas Cast</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>rosbag2_py</depend>
-  <depend>example_interfaces</depend>
-  <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend>
 
