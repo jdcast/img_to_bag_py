@@ -1,10 +1,10 @@
-# img_to_bag_py
+# ros2_img_to_bag_py
 ROS2 utilities for creating and viewing bag files from images
 
 # Installation
 1. `mkdir -p ros2_ws/src`
 2. `cd ros2_ws/src`
-3. `git clone https://github.com/jdcast/img_to_bag_py.git`
+3. `git clone https://github.com/jdcast/ros2_img_to_bag_py.git`
 4. `cd ..`
 5. `colcon build && source install/setup.bash`
 
