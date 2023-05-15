@@ -26,7 +26,7 @@ setup(
         'console_scripts': [
             'a_mode_to_bag = img_to_bag_py.a_mode_to_bag:main',
             'a_mode_pub = img_to_bag_py.a_mode_pub:main',
-            'img_sub = img_to_bag_py.img_sub:main',
+            'img_viewer = img_to_bag_py.img_viewer:main',
             'img_to_bag = img_to_bag_py.img_to_bag:main',
         ],
     },
