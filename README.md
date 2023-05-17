@@ -36,3 +36,17 @@ ROS2 utilities for creating and viewing bag files from images
 2. `cd ros2_ws`
 3. `colcon build && source install/setup.bash`
 3. `ros2 run img_to_bag_py img_sub`
+
+# Resources
+1. https://docs.ros.org/en/galactic/Tutorials/Advanced/Recording-A-Bag-From-Your-Own-Node-Py.html#write-the-python-node
+2. https://docs.ros.org/en/foxy/Releases/Release-Galactic-Geochelone.html#rosbag2-new-features
+3. https://answers.ros.org/question/355764/ros2how-to-write-data-to-rosbag2-in-ros2-foxy/
+4. https://answers.ros.org/question/11537/creating-a-bag-file-out-of-a-image-sequence/
+5. https://gist.github.com/Sarath18/7c48b6f2e667bf6dab1b12f419cab397
+6. https://github.com/ros2/rosbag2/blob/galactic/rosbag2_tests/test/rosbag2_tests/test_rosbag2_cpp_api.cpp
+7. https://ternaris.gitlab.io/rosbags/topics/serde.html
+8. https://en.wikipedia.org/wiki/Common_Data_Representation
+9. https://automaticaddison.com/getting-started-with-opencv-in-ros-2-foxy-fitzroy-python/
+10. http://wiki.ros.org/cv_bridge/Tutorials/ConvertingBetweenROSImagesAndOpenCVImagesPython
+11. https://wiki.ros.org/cv_bridge/Tutorials/UsingCvBridgeToConvertBetweenROSImagesAndOpenCVImages
+12. https://automaticaddison.com/getting-started-with-opencv-in-ros-2-foxy-fitzroy-python/
